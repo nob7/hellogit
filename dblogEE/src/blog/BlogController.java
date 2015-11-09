@@ -12,8 +12,6 @@ import java.util.List;
  */
 public class BlogController {
 	private static BlogController controller = new BlogController();
-//	private int idCounter;
-//	private List<Topic> topics = new ArrayList<Topic>();
 	public static BlogController getInstance() {
 		return controller;
 	}
